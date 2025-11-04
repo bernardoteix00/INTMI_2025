@@ -1,0 +1,220 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bernardoteix00/INTMI_2025/blob/main/28/10/2025\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p1tAc0qcHIqE",
+        "outputId": "2b31782b-d7db-4cf0-f191-1355340672e5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número: 1\n",
+            "O número não é maior que 10.\n"
+          ]
+        }
+      ],
+      "source": [
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "if numero > 10:\n",
+        "    print(\"O número é maior que 10.\")\n",
+        "else:\n",
+        "    print(\"O número não é maior que 10.\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"Digite um número inteiro: \"))\n",
+        "\n",
+        "if numero % 2 == 0:\n",
+        "    print(\"O número é par.\")\n",
+        "else:\n",
+        "    print(\"O número é ímpar.\")"
+      ],
+      "metadata": {
+        "id": "aMoDq1ZJISy9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Digite um nome: \")\n",
+        "\n",
+        "if 'a' in nome.lower():\n",
+        "    print(\"O nome contém a letra 'a'.\")\n",
+        "else:\n",
+        "    print(\"O nome não contém a letra 'a'.\")"
+      ],
+      "metadata": {
+        "id": "ILAUl9dUIV6D"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "if numero % 5 == 0:\n",
+        "    print(\"O número é múltiplo de 5.\")\n",
+        "else:\n",
+        "    print(\"O número não é múltiplo de 5.\")"
+      ],
+      "metadata": {
+        "id": "11MC7MYaIYoL"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperatura = float(input(\"Digite a temperatura atual em °C: \"))\n",
+        "\n",
+        "if temperatura > 30:\n",
+        "    print(\"Está quente!\")\n",
+        "else:\n",
+        "    print(\"Está frio!\")\n"
+      ],
+      "metadata": {
+        "id": "OF3oxlMJIc1z"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "resposta = input('Digite \"S\" para continuar ou \"N\" para sair: ').upper()\n",
+        "\n",
+        "if resposta == \"S\":\n",
+        "    print(\"Você escolheu continuar!\")\n",
+        "elif resposta == \"N\":\n",
+        "    print(\"Você escolheu sair!\")\n",
+        "else:\n",
+        "    print(\"Opção inválida! Digite apenas 'S' ou 'N'.\")"
+      ],
+      "metadata": {
+        "id": "8IikJ6kdUD4F"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "if numero > 0:\n",
+        "    print(\"O número é positivo.\")\n",
+        "elif numero == 0:\n",
+        "    print(\"O número é zero.\")\n",
+        "else:\n",
+        "    print(\"O número é negativo.\")"
+      ],
+      "metadata": {
+        "id": "Nnf7SRd1UHBF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"Digite um número de 1 a 7: \"))\n",
+        "\n",
+        "if numero == 1:\n",
+        "    print(\"Domingo\")\n",
+        "elif numero == 2:\n",
+        "    print(\"Segunda-feira\")\n",
+        "elif numero == 3:\n",
+        "    print(\"Terça-feira\")\n",
+        "elif numero == 4:\n",
+        "    print(\"Quarta-feira\")\n",
+        "elif numero == 5:\n",
+        "    print(\"Quinta-feira\")\n",
+        "elif numero == 6:\n",
+        "    print(\"Sexta-feira\")\n",
+        "elif numero == 7:\n",
+        "    print(\"Sábado\")\n",
+        "else:\n",
+        "    print(\"Número inválido! Digite um número de 1 a 7.\")"
+      ],
+      "metadata": {
+        "id": "tSxG0ZzwIsxs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ano = int(input(\"Digite um ano: \"))\n",
+        "\n",
+        "if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):\n",
+        "    print(\"O ano é bissexto.\")\n",
+        "else:\n",
+        "    print(\"O ano não é bissexto.\")"
+      ],
+      "metadata": {
+        "id": "NmDgKMT_ULI9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "horas_trabalhadas = float(input(\"Digite a quantidade de horas trabalhadas: \"))\n",
+        "valor_hora = float(input(\"Digite o valor por hora: \"))\n",
+        "\n",
+        "if horas_trabalhadas <= 40:\n",
+        "    salario = horas_trabalhadas * valor_hora\n",
+        "else:\n",
+        "    horas_extras = horas_trabalhadas - 40\n",
+        "    salario = (40 * valor_hora) + (horas_extras * valor_hora * 1.5)\n",
+        "\n",
+        "print(f\"Salário total: R$ {salario:.2f}\")"
+      ],
+      "metadata": {
+        "id": "3ind1zbHUN9V"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Conheça o Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
